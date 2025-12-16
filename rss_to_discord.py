@@ -55,7 +55,7 @@ RSS_FEEDS = [
 
 ]
 
-INCLUDE_KEYWORDS = [
+INCLUDE_KEYWORDS = [k.lower() for k in [
     "Battlefield 6", "Escape From Tarkov",
     "Solo Leveling", "Pacific Drive",
     "Palworld", "Overwatch 2", "GTA VI",
@@ -67,15 +67,15 @@ INCLUDE_KEYWORDS = [
     "CS2", "Apex Legends", "Destiny 2", "Call of Duty",
     "Rocket League", "Forza Horizon",
     
-]
+]]
 
-EXCLUDE_KEYWORDS = [
+EXCLUDE_KEYWORDS = [k.lower() for k in [
     "rumor", "leak", "unconfirmed",
     "giveaway", "free skins",
     "sale", "discount",
     "top 10", "best of",
     "opinion", "editorial"
-]
+]]
 
 POSTED_FILE = "posted.json"
 
