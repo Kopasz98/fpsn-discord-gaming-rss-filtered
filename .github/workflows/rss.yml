@@ -1,4 +1,4 @@
-name: Discord Gaming RSS
+name: Discord Gaming RSS Filtered
 
 on:
   schedule:
