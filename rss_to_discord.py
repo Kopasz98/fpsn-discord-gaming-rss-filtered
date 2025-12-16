@@ -65,8 +65,13 @@ INCLUDE_KEYWORDS = [k.lower() for k in [
     "Arc Raiders", "Elden Ring", "Peak", "Sea of Thieves",
     "Grand Theft Auto", "Helldivers 2", "Counter-Strike 2",
     "CS2", "Apex Legends", "Destiny 2", "Call of Duty",
-    "Rocket League", "Forza Horizon",
-    
+    "Rocket League", "Forza Horizon","Fable", "Diablo", "Pokemon", "Zelda", "FragPunk", "LEGO",
+"Gran Turismo", "STAR WARS", "Far Cry", "Marvel Rivals","Ubisoft","Rockstar Games","Arc System Works","Subnautica",
+    "Assassin’s Creed", "Biotech Gameworks","CD Project Red","Cyberpunk","DayZ","Dying Light","Electronic Arts","EA",
+    "Epic Games","Respawn Entertainment","Fallout","Game Awards","GTA","Hello Games","io interactive","FromSoftware","Krafton",
+    "Leslie Benzies","MindsEye","No Man’s Sky","Overwatch","PlayerUnknown’s Battlegrounds","Polyphony Digital","Rainbow Six Siege",
+    "R6S","Raven Software","ready or not","Schedule 1","Sims","Snail Games","ARK","Techland","tekken","Tom Clancy’s Rainbow Six Siege X"
+    "TVGS","Tyler’s Video Game Studio","void interactive",
 ]]
 
 EXCLUDE_KEYWORDS = [k.lower() for k in [
@@ -74,7 +79,7 @@ EXCLUDE_KEYWORDS = [k.lower() for k in [
     "giveaway", "free skins",
     "sale", "discount",
     "top 10", "best of",
-    "opinion", "editorial"
+    "opinion", "editorial","esport","free",
 ]]
 
 POSTED_FILE = "posted.json"
