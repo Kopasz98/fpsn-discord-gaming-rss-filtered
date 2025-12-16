@@ -51,7 +51,7 @@ RSS_FEEDS = [
     "https://www.playdome.hu/rss",
     "https://www.konzolvilag.hu/rss",
     "https://ultimateconsole.hu/feed",
-    "https://felhokarcolo.hu/rss",
+    "https://felhokarcolo.hu/rss"
 
 ]
 
@@ -71,7 +71,7 @@ INCLUDE_KEYWORDS = [k.lower() for k in [
     "Epic Games","Respawn Entertainment","Fallout","Game Awards","GTA","Hello Games","io interactive","FromSoftware","Krafton",
     "Leslie Benzies","MindsEye","No Man’s Sky","Overwatch","PlayerUnknown’s Battlegrounds","Polyphony Digital","Rainbow Six Siege",
     "R6S","Raven Software","ready or not","Schedule 1","Sims","Snail Games","ARK","Techland","tekken","Tom Clancy’s Rainbow Six Siege X",
-    "TVGS","Tyler’s Video Game Studio","void interactive","EA Sports FC",
+    "TVGS","Tyler’s Video Game Studio","void interactive","EA Sports FC"
 ]]
 
 EXCLUDE_KEYWORDS = [k.lower() for k in [
@@ -79,7 +79,7 @@ EXCLUDE_KEYWORDS = [k.lower() for k in [
     "giveaway", "free skins",
     "sale", "discount",
     "top 10", "best of",
-    "opinion", "editorial","esport","free",
+    "opinion", "editorial","esport","free"
 ]]
 
 POSTED_FILE = "posted.json"
